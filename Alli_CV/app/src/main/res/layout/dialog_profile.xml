@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_gradient"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:alpha=".5"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile_img" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="-100dp"
+            android:paddingRight="24dp">
+
+            <include layout="@layout/profile_info" />
+
+            <include
+                android:id="@+id/shimmer_layout"
+                layout="@layout/profile_shimmer"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/small_img"
+                android:layout_width="84dp"
+                android:layout_height="84dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/circle"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile_foto" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

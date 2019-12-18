@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="42dp"
+    android:background="@drawable/round_top"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="52dp"
+    android:paddingBottom="56dp">
+
+    <TextView
+        android:id="@+id/full_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Muhammad Ali Mazhuda" />
+
+    <TextView
+        android:id="@+id/origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Pekalongan, Jawa Tengah" />
+
+    <TextView
+        android:id="@+id/nation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Indonesia" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginVertical="16dp"
+        android:background="#DDD" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/softtware_engineer" />
+
+            <TextView
+                android:text="Tentang Saya"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="12dp">
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/softtware_engineer" />
+
+            <TextView
+                android:id="@+id/about_us"
+                android:layout_weight="1"
+                tools:text="@string/about" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/birth" />
+
+            <TextView
+                android:text="Tempat dan Tanggal Lahir"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="12dp">
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/date_birth"
+                android:layout_weight="1"
+                tools:text="Pekalongan, 08 Januari 1994" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/hiking" />
+
+            <TextView
+                android:text="Hobi"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="12dp">
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/hobby"
+                android:layout_weight="1"
+                tools:text="Mendaki gunung, Bermain alat musik, Membaca Al-Qur'an" />
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/address" />
+
+            <TextView
+                android:text="Alamat"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="12dp">
+
+            <View
+                android:layout_width="24dp"
+                android:layout_height="0dp"
+                android:layout_marginRight="12dp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_weight="1"
+                tools:text="Jalan Truntum, Gang 2B No.1 RT.009/001, Klego, Pekalongan Timur, Kota Pekalongan 51124" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+{
+  "status": 0,
+  "pesan": "Sukses",
+  "judul": "Data Pribadi",
+  "data": {
+    "nama_lengkap" : "Muhammad Ali Mazhuda",
+    "tempat_lahir" : "Pekalongan",
+    "tanggal_lahir" : "08-01-1994",
+    "kewarganegaraan" : "Indonesia",
+    "asal" : "Pekalongan, Jawa Tengah",
+    "alamat" : "Jalan Truntum, Gang 2B No.1 RT 009/001, Klego, Pekalongan Timur 51124",
+    "kewarganegaraan" : "Indonesia",
+    "hobi" : ["Bermain alat musik", "Tadabbur alam", "Tilawah Al-Qur'an"],
+    "tentang_saya" : "Seorang mantan mekanik yang sedang bertransformasi menjadi seorang programmer. Saya memiliki kompetensi dalam pengembangan aplikasi mobile, khususnya android. Tentunya dalam pengembangan aplikasi, dibutuhkan pengetahuan tentang bagaimana menjadikan aplikasi dapat berkomunikasi dengan server(backend), agar data didalam aplikasi adalah data yang dinamis. Untuk itu, saya memiliki kompetensi tentang cara request API menggunakan beberapa library terkenal seperti Volley, Retrofit dan OkHttp. JSON, merupakan salah satu response server yang paling umum digunakan dalam komunikasi cross-platform. Saya memiliki kompetensi dalam mengolah response server tersebut dan menampilkannya kepada user dengan baik. Dari sisi User Interface, saya mengandalkan Material Design yang memiliki component-component yang interatif dan enak dipandang. Selain android, saya masih terus belajar mengenai pengembangan aplikasi mobile seperti IOS menggunakan framework hybrid App seperti Flutter dan React Native."
+  }
+}

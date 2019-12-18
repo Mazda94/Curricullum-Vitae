@@ -1,0 +1,23 @@
+{
+  "status": 0,
+  "pesan": "Sukses",
+  "judul": "Daftar Pengalaman Kerja",
+  "data": [
+    {
+      "id_experience" : 1,
+      "nama_perusahaan": "Auto2000",
+      "jabatan": "Mekanik",
+      "mulai": 2012,
+      "berakhir": 2018,
+      "logo_perusahaan": "https://pbs.twimg.com/profile_images/927836449759621120/Mwuc_fmP_400x400.jpg"
+    },
+    {
+      "id_experience" : 2,
+      "nama_perusahaan": "Nutech Integrasi",
+      "jabatan": "Android Programmer",
+      "mulai": 2019,
+      "berakhir": 2020,
+      "logo_perusahaan": "https://www.jobsciety.com/wp-content/uploads/2019/10/logo-nutech-square.jpg"
+    }
+  ]
+}

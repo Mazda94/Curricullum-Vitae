@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="42dp"
+    android:background="@drawable/round_top"
+    android:orientation="vertical"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="52dp"
+    android:paddingBottom="56dp">
+
+    <io.supercharge.shimmerlayout.ShimmerLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shimmer_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:background="#F0F0F0" />
+
+            <View
+                android:layout_width="160dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="4dp"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="4dp"
+                android:background="#f0f0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_marginVertical="16dp"
+                android:background="#DDD" />
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="#f0f0f0" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="12dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="#f0f0f0" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="12dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+
+                <TableRow>
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:background="#f0f0f0" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+
+                <TableRow android:layout_marginBottom="12dp">
+
+                    <View
+                        android:layout_width="24dp"
+                        android:layout_height="24dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:background="#f0f0f0" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </io.supercharge.shimmerlayout.ShimmerLayout>
+</LinearLayout>

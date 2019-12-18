@@ -1,0 +1,73 @@
+{
+  "status": 0,
+  "pesan": "Sukses",
+  "judul": "Daftar Project",
+  "data": [
+    {
+      "project_name": "ASDP Mobile Reservation",
+      "platform": "Android App",
+      "project_owner": "PT. ASDP Indonesia Ferry",
+      "deskripsi": "Aplikasi berbasis mobile yang diperuntukkan bagi pengguna jasa Angkutan Sungai, Danau, dan Penyeberangan (ASDP) untuk memesan tiket penyeberangan kapal secara online.",
+      "teknologi": [
+        "Java Programming",
+        "MVC Architecture",
+        "Volley HTTP Request",
+        "Material Design Component",
+        "Firebase SSO",
+        "Firebase Crashlytic"
+      ],
+      "status": "Ready To Deploy",
+      "screenshoot": [
+        "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/asdp.jpg"
+      ]
+    },
+    {
+      "project_name": "ASDP Ticket Validator",
+      "platform": "Android App",
+      "project_owner": "PT. ASDP Indonesia Ferry",
+      "deskripsi": "Aplikasi berbasis mobile yang diperuntukkan bagi petugas validasi tiket untuk mengecek tiket penumpang valid atau tidak pada proses bisnis pelayanan penyeberangan selat.",
+      "teknologi": [
+        "Java Programming",
+        "MVC Architecture",
+        "Volley HTTP Request",
+        "Material Design Component"
+      ],
+      "status": "Live",
+      "screenshoot": [
+      ]
+    },
+    {
+      "project_name": "ASDP E-KTP Reader",
+      "platform": "Android App",
+      "project_owner": "PT. ASDP Indonesia Ferry",
+      "deskripsi": "Aplikasi berbasis mobile yang digunakan untuk menginput data manifest dengan membaca data yang ada didalam E-KTP.",
+      "teknologi": [
+        "Java Programming",
+        "MVC Architecture",
+        "Volley HTTP Request",
+        "Material Design Component"
+      ],
+      "status": "Ready To Deploy",
+      "screenshoot": [
+        "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/splash_ektp.jpg"
+      ]
+    },
+    {
+      "project_name": "Raillink Mobile Reservation",
+      "platform": "Android App",
+      "project_owner": "PT. Raillink",
+      "deskripsi": "Aplikasi berbasis mobile yang diperuntukkan bagi pengguna jasa kereta bandara untuk memesan tiket perjalanan ke bandara secara online.",
+      "teknologi": [
+        "React Native",
+        "JavaScript",
+        "Axios HTTP Request",
+        "React Native Paper",
+        "React Navigation"
+      ],
+      "status": "Testing",
+      "screenshoot": [
+        "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/raillink.jpg"
+      ]
+    }
+  ]
+}

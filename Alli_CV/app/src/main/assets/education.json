@@ -1,0 +1,39 @@
+{
+  "status": 0,
+  "pesan": "Sukses",
+  "judul": "Daftar Pendidikan",
+  "data": [
+    {
+      "id_education" :1,
+      "nama": "MI Nurul Islam",
+      "tingkat": "Sekolah Dasar",
+      "mulai": 2000,
+      "lulus": 2006,
+      "img": "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/mi.jpg"
+    },
+    {
+      "id_education" : 2,
+      "nama": "SMPN 2 Pekalongan",
+      "tingkat": "Sekolah Menengah Pertama",
+      "mulai": 2006,
+      "lulus": 2009,
+      "img": "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/smp.jpg"
+    },
+    {
+      "id_education" : 3,
+      "nama": "SMK Muhammadiyah Pekalongan",
+      "tingkat": "Sekolah Menengah Kejuruan",
+      "mulai": 2009,
+      "lulus": 2012,
+      "img": "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/smk.jpg"
+    },
+    {
+      "id_education" : 4,
+      "nama": "Universitas Mercu Buana",
+      "tingkat": "Perguruan Tinggi",
+      "mulai": 2013,
+      "lulus": 2019,
+      "img": "https://raw.githubusercontent.com/Mazda94/Curricullum-Vitae/master/app/src/main/res/drawable/umb.jpg"
+    }
+  ]
+}
